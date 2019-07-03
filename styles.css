@@ -1,10 +1,46 @@
 body {
-    font-family: "Lato";
+    font-family: "system-ui";
 }
 
 .head-div {
-    font-family: "Lato";
-    padding: 20px;
-    background-color: whitesmoke;
+    width: 100%;
+    height: 70vh;
+    padding: 30px;
+    background-color: #eaf7ff;
+    color: rgb(11, 65, 145);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
 
+.hero-content {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(11, 65, 145);
+    position: fixed;
+    height: 60px;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: 100%;
+}
+
+.image {
+    height: 500px;
+    width: 900px;
+    top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 5;
+    background-color: grey;
+    box-shadow: 0px 13px 24px rgb(182, 182, 182);
 }
