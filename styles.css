@@ -1,7 +1,10 @@
 body {
-    font-family: "Lato",
+    font-family: "Lato";
 }
 
 .head-div {
-    
+    font-family: "Lato";
+    padding: 20px;
+    background-color: whitesmoke;
+
 }
